@@ -47,7 +47,7 @@ a{
 a:hover i.icon-github{
 	color:#4078C0;
 }
-a:hover i.icon-rocket{
+a:hover i.icon-hrlogo{
 	color:#27AE5C;
 }
 a:hover i.icon-twitter{
@@ -55,6 +55,9 @@ a:hover i.icon-twitter{
 }
 a:hover i.icon-linkedin2{
 	color:#1B86BC;
+}
+a:hover i.icon-icon-w-drupal {
+	color:#0678BE;
 }
 .soc {
     text-align: right;

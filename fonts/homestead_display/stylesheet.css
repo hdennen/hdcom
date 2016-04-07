@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'homestead_displaydisplay';
+    src: url('homestead-display-webfont.eot');
+    src: url('homestead-display-webfont.eot?#iefix') format('embedded-opentype'),
+         url('homestead-display-webfont.woff2') format('woff2'),
+         url('homestead-display-webfont.woff') format('woff'),
+         url('homestead-display-webfont.ttf') format('truetype'),
+         url('homestead-display-webfont.svg#homestead_displaydisplay') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

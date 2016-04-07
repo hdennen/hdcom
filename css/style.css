@@ -1,0 +1,43 @@
+section.homestead {
+	font-family: 'homestead_displaydisplay', arial;
+	background-color: #343138;
+	color:#5EA0BA;
+	width:50%;
+	padding-left: 8px;
+	height:100vh
+}
+section.weblinks{
+	font-family: 'frente_h1regular', arial;
+	position: absolute;
+	right:0;
+	top:0;
+}
+section{
+	font-size: 4em;
+}
+body{
+	background-color: #eeeeee;
+	margin: 0;
+}
+body, a{
+	color:#333;
+}
+a{
+	text-shadow: 0 1px 0 #fff;
+}
+.soc {
+    text-align: right;
+    padding-right: 20px;
+}
+
+/*small screen*/
+@media (max-width: 768px){
+	section.weblinks{
+		position: initial;
+		padding:40px;
+	}
+	section.homestead{
+		height: inherit;
+		width: 100%;
+	}
+}

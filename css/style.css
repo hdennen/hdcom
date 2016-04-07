@@ -29,6 +29,11 @@ a{
     text-align: right;
     padding-right: 20px;
 }
+a i.icon{
+	text-decoration: none;
+	display: inline-block;
+	font-size: .8em;
+}
 
 /*small screen*/
 @media (max-width: 768px){
@@ -38,6 +43,7 @@ a{
 	}
 	section.homestead{
 		height: inherit;
-		width: 100%;
+		width: 98%;
+		padding-left:2%;
 	}
 }

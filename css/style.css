@@ -44,6 +44,18 @@ body, a{
 a{
 	text-shadow: 0 1px 0 #fff;
 }
+a:hover i.icon-github{
+	color:#4078C0;
+}
+a:hover i.icon-rocket{
+	color:#27AE5C;
+}
+a:hover i.icon-twitter{
+	color:#1DA1F2;
+}
+a:hover i.icon-linkedin2{
+	color:#1B86BC;
+}
 .soc {
     text-align: right;
     padding-right: 20px;

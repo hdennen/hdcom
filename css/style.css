@@ -15,6 +15,25 @@ section.weblinks{
 section{
 	font-size: 4em;
 }
+section.xyz{
+	background-image: url(../img/dropwallet.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
+}
+.xyz p {
+    color: #fefefe;
+    text-align: center;
+    padding-top: 40vh;
+    margin: 0;
+    font-family: 'frente_h1regular', arial;
+}
+.dots {
+  background-image: url(../img/grid.png);
+  background-repeat: repeat;
+  height: 100vh;
+}
 body{
 	background-color: #eeeeee;
 	margin: 0;
@@ -34,7 +53,12 @@ a i.icon{
 	display: inline-block;
 	font-size: .8em;
 }
-
+::selection {
+  background: #ffb7b7;
+}
+::-moz-selection{
+	background: #ffb7b7;
+}
 /*small screen*/
 @media (max-device-width: 768px){
 	section.weblinks{
@@ -46,4 +70,7 @@ a i.icon{
 		width: 98%;
 		padding-left:2%;
 	}
+	section{
+	font-size: 8em;
+}
 }

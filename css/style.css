@@ -59,6 +59,9 @@ a i.icon{
 ::-moz-selection{
 	background: #ffb7b7;
 }
+.mobile{
+	display:none;
+}
 /*small screen*/
 @media (max-device-width: 768px){
 	section.weblinks{
@@ -72,5 +75,11 @@ a i.icon{
 	}
 	section{
 	font-size: 8em;
-}
+	}
+	.mobile{
+		display: inherit;
+	}
+	.dtop{
+		display:none;
+	}
 }

@@ -75,7 +75,7 @@ a i.icon{
 	display:none;
 }
 /*small screen*/
-@media (max-device-width: 768px){
+@media (max-device-width: 736px){
 	section.weblinks{
 		position: initial;
 		padding:40px;
@@ -88,6 +88,8 @@ a i.icon{
 	section{
 	font-size: 8em;
 	}
+}
+@media only screen and (max-device-width: 768px) {
 	.mobile{
 		display: inherit;
 	}

@@ -36,7 +36,7 @@ a i.icon{
 }
 
 /*small screen*/
-@media (max-width: 768px){
+@media (max-device-width: 768px){
 	section.weblinks{
 		position: initial;
 		padding:40px;

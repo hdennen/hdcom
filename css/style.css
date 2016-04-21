@@ -22,11 +22,28 @@ section.xyz{
 	height: 100vh;
 	background-attachment: fixed;
 }
+.pieces {
+    font-family: 'frente_h1regular', arial;
+    text-align: center;
+  	font-style: italic;
+}
+.portfolio-item:hover{
+	background-color: #ffb7b7;
+}
 .xyz p {
     color: #fefefe;
     text-align: center;
     padding-top: 40vh;
     margin: 0;
+    font-family: 'frente_h1regular', arial;
+}
+section.outro {
+    font-size: 2em;
+    text-align: center;
+    width: 16%;
+    margin-left: auto;
+    padding: 20px 10px;
+    margin-right: auto;
     font-family: 'frente_h1regular', arial;
 }
 .dots {

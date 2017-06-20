@@ -1,45 +1,47 @@
 @font-face {
-    font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?bfucf7');
-    src:    url('fonts/icomoon.eot?bfucf7#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?bfucf7') format('truetype'),
-        url('fonts/icomoon.woff?bfucf7') format('woff'),
-        url('fonts/icomoon.svg?bfucf7#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?lkl9g7');
+  src:  url('fonts/icomoon.eot?lkl9g7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?lkl9g7') format('truetype'),
+    url('fonts/icomoon.woff?lkl9g7') format('woff'),
+    url('fonts/icomoon.svg?lkl9g7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-hrlogo:before {
-    content: "\e904";
-}
-.icon-icon-w-drupal:before {
-    content: "\e905";
-}
-.icon-rocket:before {
-    content: "\e903";
+.icon-medium:before {
+  content: "\e900";
 }
 .icon-twitter:before {
-    content: "\e900";
+  content: "\e901";
 }
 .icon-github:before {
-    content: "\e901";
+  content: "\e902";
 }
 .icon-linkedin2:before {
-    content: "\e902";
+  content: "\e903";
 }
-
+.icon-rocket:before {
+  content: "\e904";
+}
+.icon-hrlogo:before {
+  content: "\e905";
+}
+.icon-icon-w-drupal:before {
+  content: "\e906";
+}
